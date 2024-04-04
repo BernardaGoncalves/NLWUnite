@@ -413,3 +413,17 @@ tbody td button {
 tbody td button:hover {
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+    fieldset > div {
+        display: block;
+    }
+
+    .input-wrapper {
+        margin-bottom: 20px;
+    }
+
+    fieldset button {
+        margin: auto 80px;
+    }
+}
